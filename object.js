@@ -25,4 +25,25 @@ class info {
         this.isMarried = false;
     }
 }
+// you can access object properties using two syntax namely;
+// objectName.propertyName or objectName["propertyName"]
 
+
+
+// Object Methods
+// this refers to a function found inside of an object
+const person={
+    lastName: "Ching",
+    firstName: "Keziah",
+    age: 21,
+    isMarried: false,
+    country: "Cameroon",
+    fullName: function() {
+      return person.firstName + " " + person.lastName;
+    }
+  };
+  console.log(person);
+
+//   can be accessed using two ways
+person.fullName()
+person.fullName; //however acesses only the function definition

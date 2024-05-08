@@ -15,7 +15,7 @@ interpreted language while Java is a compiled language. In programing, languages
 
 console.log('hello world');
 
-// this refers to a statement which is a piece of code that expresses an action to be carried out and it must be terminated by a semi colon(;)
+// this refers to a statement which is a piece of code that expresses an action to be carrd out and it must be terminated by a semi colon(;)
 // what we have in the single quotes is called a string which is a sequence of characters
 
 // variables

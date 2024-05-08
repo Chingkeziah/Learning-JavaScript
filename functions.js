@@ -1,9 +1,16 @@
-// functions
+// functionsS
 // a function is a set of statements which performs a task or calculates a value
 function greet(name) { //name is a parameter
     console.log('hello ' + name);
  }
  greet('John'); //indicates a statement while john is an arguement
+
+ function greet(name, occupation, country) {
+  console.log("hello " + name + " I hear you're a "
+             + occupation + " from " + 
+             country);
+}
+greet("Keziah", "web developer", "Cameroon");s
  
  // types of functions
  // performing a task is what has been used above
