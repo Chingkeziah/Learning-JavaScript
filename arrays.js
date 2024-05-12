@@ -26,3 +26,20 @@ console.log(alphabets)
 // slice()
 alphabets.slice(1, 4);
 console.log(alphabets)
+
+// concat()
+const consonants = ["b", "c", "d", "f", "g"];
+const vowels = ["a", "e", "i"];
+const alph = consonants.concat(vowels);
+console.log(alph)
+
+
+// Array properties
+// length
+alphabets.length
+
+// constructor
+console.log(alphabets.constructor);
+
+// isArray
+console.log(Array.isArray(arrayName))
