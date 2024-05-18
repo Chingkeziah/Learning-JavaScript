@@ -14,4 +14,4 @@ function display(age){
     newAge.textContent = age.filter(display);
     return age <= 21;
 }
-console.log(newAge)
+console.log(newAge);
