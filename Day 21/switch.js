@@ -32,3 +32,20 @@ switch(day) {
 
 console.log("Today is " + dayName);
 
+// taking another example
+
+let fruit = "man";
+
+switch(fruit) {
+    case "banana":
+    case "apple":
+    case "orange":
+        console.log(fruit + " is a fruit.");
+        break;
+    case "carrot":
+    case "potato":
+        console.log(fruit + " is a vegetable.");
+        break;
+    default:
+        console.log("Unknown food.")
+}
