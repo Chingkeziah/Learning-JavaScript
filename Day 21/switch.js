@@ -49,3 +49,19 @@ switch(fruit) {
     default:
         console.log("Unknown food.")
 }
+
+// created my own example
+let age = 35;
+switch(age){
+    case 10: 
+    console.log("minor")
+    break;
+    case 21:
+    console.log("adult")
+    break;
+    case 60:
+    console.log("old")
+    break;
+    default: 
+    console.log("Invalid age group");
+}
