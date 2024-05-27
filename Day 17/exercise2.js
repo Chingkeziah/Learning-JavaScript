@@ -26,10 +26,23 @@ const report = [
         name: "Thomas",
         score: 68,
     }
-]
-// if(report.score <60){
-//     console.log("Grade F");
-// }
-// else(report.scpre <70){
-//     console.log("Grade D");
-// }
+];
+
+report.forEach(student => {
+    let grade;
+    if (student.score < 60) {
+        grade = "Grade F";
+    } else if (student.score < 70) {
+        grade = "Grade D";
+    } else if (student.score < 80) {
+        grade = "Grade C";
+    } else if (student.score < 90) {
+        grade = "Grade B";
+    } else if (student.score <= 100) {
+        grade = "Grade A";
+    } else {
+        grade = "Invalid score";
+    }
+    console.log(`${student.id}. ${student.name}, you scored ${student.score} ${grade}`);
+});
+
