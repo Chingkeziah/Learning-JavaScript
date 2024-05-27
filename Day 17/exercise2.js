@@ -1,5 +1,4 @@
-// Write a JavaScript program that computes the average marks of the following students. 
-// Then, this average is used to determine the corresponding grade.
+// Write a JavaScript program that determines the corresponding grade of each student
 const report = [
     {
         id: 1,
